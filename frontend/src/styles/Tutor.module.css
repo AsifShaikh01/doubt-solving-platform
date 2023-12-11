@@ -1,0 +1,174 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); */
+
+@media All and (min-width:576px) {
+    .bodyAll{
+        background: linear-gradient(to right, #fdd60d 40%, white 30%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .home{
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        /* font-family: 'Acme', sans-serif; */
+         /* margin-top: 7%; */
+        /* margin-left: 5%;  */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .home>div:nth-child(1){
+        width: 33.5%;
+       
+        
+    }
+    .home>div:nth-child(2){
+        width: 66.5%;
+       
+        
+    }
+    h1{
+        font-size: 18px;
+        color: #fdd60d;
+        /* font-weight: 500; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .home>div>img{
+        width: 100%;
+      
+    }
+    .home>div:nth-child(1){
+        height: 500px;
+        background-color: #fdd60d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home>div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        background-color: white;
+        height: 500px;
+      
+    }
+    .home>div:nth-child(2)>p{
+        text-decoration: none;
+        font-size: 12px
+    
+    }
+    .home>div:nth-child(2)>form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        padding: 10px;
+        gap: 10px;
+    
+    }
+    .home>div:nth-child(2)>form>input{
+        padding: 12px 100px 12px 10px;
+        border: none;
+        border-bottom: 2px solid #fdd60d;
+    }
+    .home>div:nth-child(2)>form>button{
+        padding: 9px 80px;
+        background-color: #fdd60d;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    
+    }
+}
+@media All and (max-width:575px){
+    .bodyAll{
+        /* background: linear-gradient(to right, #fdd60d 100%);
+         */
+         background-color: #fdd60d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .home{
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        /* font-family: 'Acme', sans-serif; */
+         /* margin-top: 7%; */
+        /* margin-left: 5%;  */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .home>div:nth-child(1){
+        /* width: 33.5%;
+         */
+         display: none;
+       
+        
+    }
+    .home>div:nth-child(2){
+        width: 100%;
+       
+        
+    }
+    h1{
+        font-size: 18px;
+        color:#fdd60d;
+        /* font-weight: 500; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .home>div>img{
+        /* width: 100%;
+         */
+         display: none;
+      
+    }
+   
+    .home>div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        background-color: white;
+        height: 500px;
+      
+    }
+    .home>div:nth-child(2)>p{
+        text-decoration: none;
+        font-size: 12px
+    
+    }
+    .home>div:nth-child(2)>form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        padding: 10px;
+        gap: 10px;
+    
+    }
+    .home>div:nth-child(2)>form>input{
+        padding: 12px 100px 12px 10px;
+        border: none;
+        border-bottom: 2px solid #fdd60d;
+    }
+    .home>div:nth-child(2)>form>button{
+        padding: 9px 80px;
+        background-color: #fdd60d;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    
+    }
+}
